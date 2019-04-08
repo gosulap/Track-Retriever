@@ -1,14 +1,10 @@
 # track-retriever
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I built this to make it easier for people to work with the tracks that exist in their Spotify playlists 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+I assume that you have already make a Spotify project, if not you can do that [here](https://developer.spotify.com/dashboard/)
 
 ```
 Give examples
