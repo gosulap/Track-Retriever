@@ -1,4 +1,8 @@
 # track-retriever
 
-This module is meant to make it easy for people to get the songs in their spotify playlists
-In order to use this you need to have already registered a project on the Spotify developer site
+<p>
+    This module is meant to make it easy for people to get the songs in their spotify playlists
+    <br/>
+    In order to use this you need to have made a project on the Spotify developer site 
+    <br/>
+</p>
