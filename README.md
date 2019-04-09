@@ -21,7 +21,11 @@ Just import it into your project after that
 ## Functions 
 
 ```
-getTracks()
+getTracks(username, client_id, client_secret,redirect_uri,getNames = False)
+
+All the parameters should be input as string except getNames
+When getNames is set to True getTracks will return a list of the names of the tracks in your playlists
+When getNames is set to False getTracks will return a list of the track id's of the tracks in your playlists
 ```
 
 ```
