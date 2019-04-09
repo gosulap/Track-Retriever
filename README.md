@@ -20,7 +20,7 @@ Just import it into your project after that
 
 ## Functions 
 
-I made getPaylistIds and get_playlist_tracks as helpers for getTracks but you are more than welcome to use them
+I made getPlaylistIds and get_playlist_tracks as helpers for getTracks but you are more than welcome to use them
 
 ```
 getTracks(username, client_id, client_secret,redirect_uri,getNames = False)
