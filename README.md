@@ -7,7 +7,7 @@ I built this to make it easier for people to work with the tracks that exist in 
 I assume that you have already made a Spotify project, if not you can do that [here](https://developer.spotify.com/dashboard/)
 
 ```
-You'll need your: username, client_id, client_secret and redirect_uri
+You'll need your: username, client_id, client_secret, redirect_uri and userId 
 ```
 
 ### Installing
@@ -19,6 +19,8 @@ pip install trackRetriever
 Just import it into your project after that 
 
 ## Functions 
+
+I made getPaylistIds and get_playlist_tracks as helpers for getTracks but you are more than welcome to use them
 
 ```
 getTracks(username, client_id, client_secret,redirect_uri,getNames = False)
