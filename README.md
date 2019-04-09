@@ -1,4 +1,4 @@
-# track-retriever
+# Track Retriever
 
 I built this to make it easier for people to work with the tracks that exist in their Spotify playlists 
 
