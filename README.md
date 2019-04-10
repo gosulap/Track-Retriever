@@ -1,6 +1,6 @@
 # Track Retriever
 
-I built this to make it easier for people to work with the tracks that exist in their Spotify playlists 
+I built this to make it easier for people to work with the tracks in their Spotify playlists 
 
 ### Prerequisites
 
@@ -14,9 +14,7 @@ You'll need your: username, client_id, client_secret, redirect_uri and userId
 
 ```
 pip install trackRetriever
-```
-
-Just import it into your project after that 
+``` 
 
 ## Functions 
 
