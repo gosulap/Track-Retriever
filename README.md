@@ -1,6 +1,6 @@
 # Track Retriever
 
-I built this to make it easier for people to work with the tracks in their Spotify playlists 
+Built to make it easier for people to work with the tracks in their Spotify playlists 
 
 ### Prerequisites
 
