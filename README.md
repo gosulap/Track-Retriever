@@ -1,3 +1,4 @@
+[![Downloads](https://pepy.tech/badge/trackretriever)](https://pepy.tech/project/trackretriever)
 # Track Retriever
 
 Built to make it easier for people to work with the tracks in their Spotify playlists 
