@@ -19,7 +19,7 @@ pip install trackretriever
 
 ## Functions 
 
-I made getPlaylistIds and get_playlist_tracks as helpers for getTracks but you are more than welcome to use them
+I made get_playlist_ids and get_playlist_tracks as helpers for get_tracks but you are more than welcome to use them
 
 ```
 get_tracks(username, client_id, client_secret, redirect_uri, get_names = False)
