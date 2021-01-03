@@ -1,12 +1,13 @@
 Metadata-Version: 2.1
 Name: trackRetriever
-Version: 1.0.0
+Version: 1.0.1
 Summary: A package to get the track id's/names of your songs
 Home-page: https://github.com/gosulap/trackRetriever
 Author: Pradhit Gosula
 Author-email: pradhitg@gmail.com
 License: UNKNOWN
-Description: # Track Retriever
+Description: [![Downloads](https://pepy.tech/badge/trackretriever)](https://pepy.tech/project/trackretriever)
+        # Track Retriever
         
         Built to make it easier for people to work with the tracks in their Spotify playlists 
         

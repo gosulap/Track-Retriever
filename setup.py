@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="trackRetriever",
-    version="1.0.0",
+    version="1.0.1",
     author="Pradhit Gosula",
     author_email="pradhitg@gmail.com",
     description="A package to get the track id's/names of your songs",
