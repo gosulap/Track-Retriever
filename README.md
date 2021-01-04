@@ -3,7 +3,7 @@
 
 Built to make it easier for people to work with the tracks in their Spotify playlists 
 
-### Prerequisites
+## Prerequisites
 
 I assume that you have already made a Spotify project, if not you can do that [here](https://developer.spotify.com/dashboard/)
 
@@ -11,7 +11,7 @@ I assume that you have already made a Spotify project, if not you can do that [h
 You'll need your: username, client_id, client_secret, redirect_uri and user_id 
 ```
 
-### Installing
+## Installing
 
 ```bash
 pip install trackRetriever
