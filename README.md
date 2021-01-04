@@ -13,32 +13,45 @@ You'll need your: username, client_id, client_secret, redirect_uri and user_id
 
 ### Installing
 
-```
-pip install trackretriever
-``` 
-
-## Functions 
-
-I made get_playlist_ids and get_playlist_tracks as helpers for get_tracks but you are more than welcome to use them
-
-```
-get_tracks(username, client_id, client_secret, redirect_uri, get_names = False)
-
-All the parameters should be input as string except getNames
-When getNames is set to True getTracks will return a list of the names of the tracks in your playlists
-When getNames is set to False getTracks will return a list of the track id's of the tracks in your playlists 
+```bash
+pip install trackRetriever
 ```
 
-```
-get_playlist_ids(playlists)
+## Usage
 
-This will get the playlist id's of your playlists 
-playlists = sp.user_playlists(user_id) *user_id is not your username* 
-```
+```python
+import trackRetriever
 
-```
-get_playlist_tracks(user_id, playlist_id, sp)
+'''
+Gets the names/track-ids of the songs in a users playlists
+
+When get_names is set to True get_tracks will return a list of the names of the tracks in your playlists
+When get_names is set to False get_tracks will return a list of the track-ids of the tracks in your playlists
+
+Note: All the parameters should be input as string except get_names
+'''
+trackRetriever.get_tracks(username, client_id, client_secret, redirect_uri)
+trackRetriever.get_tracks(username, client_id, client_secret, redirect_uri, True)
+
+'''
+Gets the playlist id's the users playlists
+
+Note: playlists = sp.user_playlists(user_id) *user_id is not your username*  
+'''
+trackRetrieverget_playlist_ids(playlists) 
+
+'''
+Gets the tracks in the specified playlist
 
 sp is the spotify object created by spotipy.Spotify(auth=token)
 playlist_id is the id of the playlist you want to retrieve the tracks for 
+'''
+trackRetriever.get_playlist_tracks(user_id, playlist_id, sp)
 ```
+
+## Contributing
+Pull requests are welcome.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
