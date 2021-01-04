@@ -28,7 +28,14 @@ Gets the names/track_ids of the songs in a users playlists
 When get_names is set to True get_tracks will return a list of the names of the tracks in your playlists
 When get_names is set to False get_tracks will return a list of the track_ids of the tracks in your playlists
 
-Note: All the parameters should be input as string except get_names
+Parameters:
+    username - Spotify username
+    client_id - From spotify project 
+    client_secret - From spotify project 
+    redirect_uri - From spotify project 
+    get_names - True when names of tracks need to be returned, False otherwise 
+
+Note: All the parameters should be strings except get_names
 '''
 
 
@@ -38,6 +45,9 @@ trackRetriever.get_tracks(username, client_id, client_secret, redirect_uri, True
 
 '''
 Gets the playlist_ids of the users playlists
+
+Parameters:
+    playlists - user playlists
 
 Note: playlists = sp.user_playlists(user_id) *user_id is not your username*  
 '''
@@ -49,8 +59,11 @@ trackRetriever.get_playlist_ids(playlists)
 '''
 Gets the tracks in the specified playlist
 
-sp is the spotify object created by spotipy.Spotify(auth=token)
-playlist_id is the id of the playlist you want to retrieve the tracks for 
+Parameters:
+    sp - spotify object created by spotipy.Spotify(auth=token)
+    playlist_id - id of the target playlist
+
+Note: playlist_id should be a string
 '''
 
 
