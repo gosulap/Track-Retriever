@@ -43,7 +43,7 @@ Note: playlists = sp.user_playlists(user_id) *user_id is not your username*
 '''
 
 
-trackRetrieverget_playlist_ids(playlists) 
+trackRetriever.get_playlist_ids(playlists) 
 
 
 '''
