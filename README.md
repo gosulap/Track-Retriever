@@ -23,10 +23,10 @@ pip install trackRetriever
 import trackRetriever
 
 '''
-Gets the names/track-ids of the songs in a users playlists
+Gets the names/track_ids of the songs in a users playlists
 
 When get_names is set to True get_tracks will return a list of the names of the tracks in your playlists
-When get_names is set to False get_tracks will return a list of the track-ids of the tracks in your playlists
+When get_names is set to False get_tracks will return a list of the track_ids of the tracks in your playlists
 
 Note: All the parameters should be input as string except get_names
 '''
@@ -34,7 +34,7 @@ trackRetriever.get_tracks(username, client_id, client_secret, redirect_uri)
 trackRetriever.get_tracks(username, client_id, client_secret, redirect_uri, True)
 
 '''
-Gets the playlist id's the users playlists
+Gets the playlist_ids of the users playlists
 
 Note: playlists = sp.user_playlists(user_id) *user_id is not your username*  
 '''
